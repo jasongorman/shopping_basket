@@ -31,7 +31,7 @@
        SINGLE_ITEM.
             INITIALIZE basket REPLACING NUMERIC DATA BY ZEROES.
             MOVE 100 TO unitprice(1).
-            Move 1 TO quantity(1).
+            MOVE 1 TO quantity(1).
 
             CALL 'TOTAL' USING basket, total.
             MOVE 100 TO expected.
