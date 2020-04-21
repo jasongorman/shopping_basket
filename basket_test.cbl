@@ -63,7 +63,7 @@
             CALL 'TOTAL' USING basket, total.
 
             MOVE 200 TO expected.
-            CALL 'ASSERT_EQUAL' USING 'TWO_ITEMS',
+            CALL 'ASSERT_EQUAL' USING 'QUANTITY_TWO',
                    expected, total, test-context.
 
 
